@@ -9,12 +9,12 @@ import {
    ListGroupItemText
 } from "reactstrap";
 
-import MomeProject from "./Portfolio/mome";
-import LeviProject from "./Portfolio/levi";
-import MhnkProject from "./Portfolio/mhnk";
-import Whizdom from "./Portfolio/whizdom";
-import Line from "./Portfolio/line";
-import Lighting from "./Portfolio/yimyamlighting";
+import MomeProject from "./mome";
+import LeviProject from "./levi";
+import MhnkProject from "./mhnk";
+import Whizdom from "./whizdom";
+import Line from "./line";
+import Lighting from "./yimyamlighting";
 
 export default class Experiences extends Component {
    newList(jsx, desc) {
