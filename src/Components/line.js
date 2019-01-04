@@ -62,7 +62,7 @@ class Line extends React.Component {
                      "ได้รับมอบหมายให้ทำ Projection Mapping จาก Projector 6 เครื่อง โดยเลือกใช้โปรแกรม Resolume"
                   )}
 
-                  {this.imgWithDesc("/images/line3.jpg", "โปรแกรม Resolume")}
+                  {this.imgWithDesc("./images/line3.jpg", "โปรแกรม Resolume")}
                </ModalBody>
 
                {/* <ModalFooter>
