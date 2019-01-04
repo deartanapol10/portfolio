@@ -53,27 +53,27 @@ class Whizdom extends React.Component {
 
                <ModalBody>
                   {this.imgWithDesc(
-                     "/images/whizdom.JPG",
+                     "./images/whizdom.JPG",
                      "Web Application + Event Installation เกี่ยวกับให้ผู้ใช้งานได้ปลูกต้นไม้บนเว็บไซต์แล้วต้นไม้ที่ปลูกจะถูกนำไปแสดงผลบนหน้าจอที่ Whizdom Sales Gallery"
                   )}
                   {this.imgWithDesc(
-                     "/images/step1.png",
+                     "./images/step1.png",
                      "หน้าตา Web Application ให้ผู้ใช้งาน login facebook"
                   )}
                   {this.imgWithDesc(
-                     "/images/step2.png",
+                     "./images/step2.png",
                      "เลือกเมล็ดพันธุ์ที่ต้องการปลูก"
                   )}
                   {this.imgWithDesc(
-                     "/images/step3.png",
+                     "./images/step3.png",
                      "กด Growth เพื่อปลูกต้นไม้"
                   )}
                   {this.imgWithDesc(
-                     "/images/step4.png",
+                     "./images/step4.png",
                      "ระบบจะเก็บชื่อของผู้ปลูกต้นไม้แต่ละต้น และนับยอดเพื่อโชว์บน Website และหน้าจอ Kinect ที่งานแบบ Real-time"
                   )}
                   {this.imgWithDesc(
-                     "/images/step5.png",
+                     "./images/step5.png",
                      "Share ลง facebook ง่ายๆเพียงคลิกเดียว"
                   )}
                </ModalBody>

@@ -54,7 +54,7 @@ class Lighting extends React.Component {
 
                <ModalBody>
                   {this.imgWithDesc(
-                     "/images/letitbelight-1.jpg",
+                     "./images/letitbelight-1.jpg",
                      `LET IT BE LIGHT 
                      A RESPONSIVE CHRISTMAS TREE เวิร์คช็อป 4 วัน 
                      ว่าด้วยกระบวนการออกแบบ interactive lighting installation 
@@ -64,23 +64,23 @@ class Lighting extends React.Component {
                      มาทดลองสร้างต้นคริสต์มาส interactive กันเถอะ !!`
                   )}
                   {this.imgWithDesc(
-                     "/images/letitbelight-6.png",
+                     "./images/letitbelight-6.png",
                      `โปรแกรมและอุปกรณ์ที่ใช้สำหรับงานครั้งนี้ ได้แก่ MAX MSP/ABLETON/ARDUINO/LEAP/KINECT/RESOLUME/PROCESSING/HARDWARE HACKING/TOUCH OSC`
                   )}
                   {this.imgWithDesc(
-                     "/images/letitbelight-2.png",
+                     "./images/letitbelight-2.png",
                      `บรรยากาศภายในงาน`
                   )}
                   {this.imgWithDesc(
-                     "/images/letitbelight-3.png",
+                     "./images/letitbelight-3.png",
                      `บรรยากาศภายในงาน`
                   )}
                   {this.imgWithDesc(
-                     "/images/letitbelight-4.png",
+                     "./images/letitbelight-4.png",
                      `บรรยากาศภายในงาน`
                   )}
                   {this.imgWithDesc(
-                     "/images/letitbelight-5.png",
+                     "./images/letitbelight-5.png",
                      `บรรยากาศภายในงาน`
                   )}
                </ModalBody>

@@ -53,12 +53,12 @@ class Line extends React.Component {
 
                <ModalBody>
                   {this.imgWithDesc(
-                     "/images/line1.jpg",
+                     "./images/line1.jpg",
                      "งาน Gala Dinner ของบริษัท Line Thailand จัดขึ้นที่โรงแรม Park Hyatt Bangkok"
                   )}
 
                   {this.imgWithDesc(
-                     "/images/line2.jpg",
+                     "./images/line2.jpg",
                      "ได้รับมอบหมายให้ทำ Projection Mapping จาก Projector 6 เครื่อง โดยเลือกใช้โปรแกรม Resolume"
                   )}
 
