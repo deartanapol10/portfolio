@@ -1,0 +1,128 @@
+@import url("'https://fonts.googleapis.com/css?family=Kanit:200,400|Quicksand'");
+
+.App {
+   font-family: "Quicksand", "Kanit", sans-serif;
+}
+
+.section {
+   padding-top: 40px;
+   margin: auto;
+}
+
+.section .left {
+   margin: auto;
+}
+
+.section .right h1 {
+   font-size: 2.5rem;
+}
+
+.section .right p {
+   font-size: 1rem;
+}
+
+.modal-content {
+   font-family: "Quicksand", "Kanit", sans-serif;
+}
+
+.head {
+   display: flex;
+   align-items: center;
+}
+
+.landing-img {
+   /* min-height: 60vh; */
+   width: 100%;
+   background-size: cover;
+   background-position: center center;
+   overflow: hidden;
+   position: relative;
+}
+
+.landing-text {
+   text-align: center;
+   z-index: 1;
+   position: absolute;
+   top: 53%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.footer-bg {
+   margin-top: 20px;
+   background-color: #eaeaea;
+   justify-content: center;
+   display: flex;
+   color: #000000;
+   min-height: 12vh;
+}
+
+.footer-text {
+   top: 50%;
+   left: 50%;
+}
+
+/* Just for fun */
+.lds-heart {
+   display: inline-block;
+   position: relative;
+   width: 64px;
+   height: 64px;
+   transform: rotate(45deg);
+   transform-origin: 32px 32px;
+}
+.lds-heart div {
+   top: 23px;
+   left: 19px;
+   position: absolute;
+   width: 26px;
+   height: 26px;
+   background: #000000;
+   animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.lds-heart div:after,
+.lds-heart div:before {
+   content: " ";
+   position: absolute;
+   display: block;
+   width: 26px;
+   height: 26px;
+   background: #000000;
+}
+.lds-heart div:before {
+   left: -17px;
+   border-radius: 50% 0 0 50%;
+}
+.lds-heart div:after {
+   top: -17px;
+   border-radius: 50% 50% 0 0;
+}
+@keyframes lds-heart {
+   0% {
+      transform: scale(0.95);
+   }
+   5% {
+      transform: scale(1.1);
+   }
+   39% {
+      transform: scale(0.85);
+   }
+   45% {
+      transform: scale(1);
+   }
+   60% {
+      transform: scale(0.95);
+   }
+   100% {
+      transform: scale(0.9);
+   }
+}
+
+.exp-button {
+   background: none;
+   color: #0056b3;
+   border: none;
+   padding: 0;
+   cursor: pointer;
+   outline: inherit;
+}
