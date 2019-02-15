@@ -60,7 +60,7 @@ export default class Education extends Component {
                                        Pugin-Studio
                                     </a>{" "}
                                     / Freelance Programmer / Artificial
-                                    Intelligent Trader
+                                    Intelligent Private Fund Manager
                                  </td>
                               </tr>
                            </tbody>

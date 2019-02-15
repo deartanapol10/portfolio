@@ -41,7 +41,13 @@ export default class Experiences extends Component {
                         <h1>Experiences</h1>
                      </div>
                      <hr />
+                     <div className="display-4 text-center">{"2 0 1 8"}</div>
                      <ListGroup>
+                        {this.newList(
+                           "Thesis : Machine Learning for Forex Trading",
+                           "โปรแกรม Trade ค่าเงินอัตโนมัติ โดยใช้ LSTM; Deep Learning เป็น Algorithm หลัก"
+                        )}
+
                         {this.newList(
                            <MomeProject />,
                            "Experimental Interactive Art Exhibition"

@@ -34,15 +34,16 @@ export default class Skills extends Component {
                      </p>
                      <hr />
                      <p>
-                        <i className="fas fa-check-circle" /> Full Stack Web
-                        Development (ReactJS, MeteorJS, NodeJS, MongoDB,
-                        Express, Bootstrap, Material-UI)
+                        <i className="fas fa-check-circle" />
+                        {
+                           "Javascript : ReactJS/NodeJS/MeteorJS/MongoDB/ElectronJS"
+                        }
                         <br />
-                        <i className="fas fa-check-circle" /> Application
-                        Development (React Native)
+                        <i className="fas fa-check-circle" />
+                        {"C++ : Openframeworks/MQL4"}
                         <br />
-                        <i className="fas fa-check-circle" /> Software
-                        Development (ElectronJS, Python)
+                        <i className="fas fa-check-circle" />
+                        {"Python : Keras/OpenCV/Pillow"}
                      </p>
                   </Col>
                </Row>
